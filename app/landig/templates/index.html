@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí | Mi Espacio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuente elegante de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado / Navegación -->
+    <header>
+        <div class="logo">MiPortafolio</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Quién Soy</a>
+            <a href="#trayectoria">Mi Historia</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio (Hero) -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1>Hola, soy <span class="highlight">Tu Nombre</span>.</h1>
+            <p class="subtitle">Un apasionado por crear, aprender y compartir experiencias.</p>
+            <a href="#sobre-mi" class="btn">Conóceme más</a>
+        </div>
+    </section>
+
+    <!-- Sección "Quién Soy" (Detallada) -->
+    <section id="sobre-mi" class="about-section">
+        <div class="container">
+            <h2>Un poco sobre mí</h2>
+            <p class="lead">Aquí es donde empieza mi historia. Me considero una persona curiosa, en constante evolución y con muchas ganas de dejar una huella en lo que hago.</p>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Mi Filosofía</h3>
+                    <p>Escribe aquí un texto largo sobre cómo ves el mundo, qué te motiva a levantarte cada mañana y cuáles son tus valores principales. Puedes explayarte todo lo que quieras. La idea de este espacio es que la gente realmente entienda qué hay detrás de tu nombre.</p>
+                    <p>También puedes hablar de tus pasatiempos, lo que te gusta hacer en tu tiempo libre, los libros que te han marcado o esa extraña obsesión que tienes con el café por las mañanas. No te limites, el texto largo aquí se ve muy bien gracias al diseño limpio.</p>
+                </div>
+                <div class="about-text">
+                    <h3>Lo que me mueve</h3>
+                    <p>En esta otra columna puedes poner tus metas actuales, tus proyectos frustrados que te enseñaron grandes lecciones, o lo que esperas del futuro. El contraste de los párrafos en un fondo limpio hace que la lectura sea super cómoda y ligera para el usuario.</p>
+                    <p>Cuanta más personalidad le pongas a estos textos, más conectará la gente contigo. No tengas miedo de sonar muy "tú".</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Trayectoria o Detalles extras -->
+    <section id="trayectoria" class="timeline-section">
+        <div class="container">
+            <h2>Mi Historia</h2>
+            <div class="timeline-item">
+                <span class="date">El Pasado</span>
+                <h4>Los Inicios</h4>
+                <p>Cuéntale al mundo de dónde vienes. Dónde estudiaste, cuál fue tu primer trabajo o qué detonó tu interés por lo que haces hoy en día. Un viaje al pasado siempre da contexto.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="date">El Presente</span>
+                <h4>En lo que estoy enfocado</h4>
+                <p>¿Qué haces hoy? Habla de tus proyectos actuales, tu trabajo, tus estudios o ese proyecto personal al que le estás dedicando las noches y los fines de semana.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2>¿Hablamos?</h2>
+            <p>Si te gustó lo que leíste y quieres charlar, colaborar en algo o simplemente saludar, búscame en mis redes o escríbeme.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+                <a href="mailto:tu@email.com" class="highlight">tu@email.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Tu Nombre. Hecho con amor y minimalismo.</p>
+    </footer>
+
+</body>
+</html>
